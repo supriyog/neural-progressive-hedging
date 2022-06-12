@@ -1,0 +1,5 @@
+base_env_params:
+  init_weights: eq
+  steps: 0
+  trading_cost: 0.002
+  window_length: 30

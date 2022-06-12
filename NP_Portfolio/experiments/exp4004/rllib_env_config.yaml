@@ -1,0 +1,780 @@
+multi_tech_training_9_0:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - CMCSA
+    - QCOM
+    - IT
+    - CTXS
+    - MA
+    - STX
+    - AAPL
+    - CSCO
+    - ADI
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 0
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_1:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - MA
+    - AKAM
+    - SNPS
+    - ADP
+    - DISH
+    - CMCSA
+    - IPG
+    - CRM
+    - NFLX
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 1
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_10:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - ADS
+    - FISV
+    - JNPR
+    - AVGO
+    - DXC
+    - INTC
+    - INTU
+    - OMC
+    - TEL
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 10
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_11:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - FISV
+    - SNPS
+    - NTAP
+    - JNPR
+    - ADI
+    - FB
+    - CTSH
+    - DISH
+    - LRCX
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 11
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_12:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - ADS
+    - MSI
+    - IPG
+    - QCOM
+    - MA
+    - APH
+    - WDC
+    - CSCO
+    - CTSH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 12
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_13:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - CTL
+    - AMD
+    - APH
+    - MSI
+    - KLAC
+    - PAYX
+    - QCOM
+    - AKAM
+    - CTSH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 13
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_14:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - INTU
+    - TEL
+    - XRX
+    - ADP
+    - ADI
+    - IBM
+    - DXC
+    - CHTR
+    - MA
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 14
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_15:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - ADP
+    - FFIV
+    - FB
+    - ADI
+    - GLW
+    - APH
+    - MCHP
+    - STX
+    - WDC
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 15
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_16:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - QCOM
+    - MA
+    - AKAM
+    - AVGO
+    - JNPR
+    - ATVI
+    - STX
+    - CSCO
+    - DISH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 16
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_17:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - VZ
+    - CHTR
+    - MCHP
+    - MA
+    - FFIV
+    - AAPL
+    - GLW
+    - IPG
+    - AMD
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 17
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_18:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - VZ
+    - DXC
+    - IT
+    - CSCO
+    - LRCX
+    - ADBE
+    - AAPL
+    - MA
+    - T
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 18
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_19:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - INTC
+    - DXC
+    - VZ
+    - AKAM
+    - WDC
+    - STX
+    - AVGO
+    - FISV
+    - JNPR
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 19
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_2:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - FB
+    - APH
+    - STX
+    - DXC
+    - VZ
+    - TEL
+    - OMC
+    - ADI
+    - ADBE
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 2
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_20:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - IT
+    - CTL
+    - AMD
+    - DIS
+    - INTU
+    - CMCSA
+    - FISV
+    - INTC
+    - WDC
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 20
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_21:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - MSI
+    - TEL
+    - ADBE
+    - ADS
+    - AMD
+    - JNPR
+    - CTXS
+    - IBM
+    - LRCX
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 21
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_22:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - DXC
+    - FISV
+    - TEL
+    - NTAP
+    - DIS
+    - ADS
+    - AMD
+    - CTL
+    - IPG
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 22
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_23:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - INTC
+    - FFIV
+    - CHTR
+    - VZ
+    - MSI
+    - MSFT
+    - CMCSA
+    - DISH
+    - GOOG
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 23
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_24:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - DIS
+    - INTU
+    - GOOG
+    - OMC
+    - GLW
+    - APH
+    - MA
+    - CRM
+    - IT
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 24
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_25:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - CTL
+    - TEL
+    - T
+    - IBM
+    - NTAP
+    - SNPS
+    - DIS
+    - CMCSA
+    - CSCO
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 25
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_26:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - AMD
+    - NFLX
+    - DIS
+    - APH
+    - WU
+    - QCOM
+    - GOOG
+    - AKAM
+    - LRCX
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 26
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_27:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - AVGO
+    - KLAC
+    - IPG
+    - WDC
+    - GLW
+    - QCOM
+    - ATVI
+    - DIS
+    - CTL
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 27
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_28:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - CTSH
+    - KLAC
+    - ADS
+    - CTXS
+    - CMCSA
+    - XRX
+    - LRCX
+    - IPG
+    - FFIV
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 28
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_29:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - CTSH
+    - STX
+    - GLW
+    - IBM
+    - MA
+    - WDC
+    - SNPS
+    - FFIV
+    - CRM
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 29
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_3:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - MSI
+    - VZ
+    - DXC
+    - SNPS
+    - XRX
+    - CTSH
+    - T
+    - IT
+    - CHTR
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 3
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_4:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - LRCX
+    - JNPR
+    - DIS
+    - WDC
+    - DXC
+    - KLAC
+    - CMCSA
+    - GOOG
+    - DISH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 4
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_5:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - IPG
+    - AMD
+    - IT
+    - LRCX
+    - IBM
+    - AVGO
+    - SNPS
+    - CTSH
+    - DISH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 5
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_6:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - MA
+    - INTU
+    - AVGO
+    - PAYX
+    - AMD
+    - VZ
+    - DXC
+    - WU
+    - CSCO
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 6
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_7:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - ADBE
+    - DXC
+    - ATVI
+    - AAPL
+    - TEL
+    - ADS
+    - AVGO
+    - QCOM
+    - CTSH
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 7
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_8:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - IBM
+    - APH
+    - ADS
+    - TEL
+    - AMD
+    - AVGO
+    - AAPL
+    - CRM
+    - CTXS
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 8
+  stock_loader: get_multi_tech_stocks
+multi_tech_training_9_9:
+  base_env_params:
+    init_weights: eq
+    steps: 0
+    trading_cost: 0.002
+    window_length: 30
+  data_config:
+    data_loc: data/sandp500_2005_2019/{}_data.csv
+    end_date: '2019-01-01'
+    start_date: '2009-01-01'
+    stocks:
+    - INTC
+    - INTU
+    - ADP
+    - AMD
+    - DISH
+    - CSCO
+    - PAYX
+    - IT
+    - MA
+  data_loader: sp500_data_loader.get_data
+  stock_config:
+    mode: training
+    num_stocks: 9
+    sample_idx: 9
+  stock_loader: get_multi_tech_stocks

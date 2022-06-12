@@ -1,0 +1,64 @@
+# Configuration File. Attention each value has to be followed by the sharp with the label of variable
+
+# Number of risky assets
+9	#num_asset
+
+# Number of liabilities
+1	#num_liability
+
+# Length of total planning horizon (not used)
+2	#horizon_length
+
+# Initial cash available at time 0
+1	#init_cash
+
+# stages in the scenario tree
+2	#look_ahead_period
+
+# Number of samples to generate in each node of tree in second stage
+1000	#n_sample_scenario_1
+
+# Number of scenarios in each bundle
+75	#nscen_bundle
+
+# Scenario bundling strategy (random or sequential)
+sequential	#bundling_strategy
+
+# Learning rate for ensembling in neural proximal algorithm
+0.0	#alpha_npr
+
+# How to dynamically update alpha_npr in each iteration of proximal hedging algorithm (fixed, rt, t, t2, t3)
+t2	#dynamic_alpha_rule
+
+# Whether to force learning rate for ensemble to 0 after N iterations (T or F)
+T	#force_converge
+
+# If force learning rate to 0 is set to T, then set the value of iteration number to set to 0.
+20	#force_iter
+
+# Transaction cost for buying
+0.002	#alpha_plus
+
+# Transaction cost for selling
+0.002	#alpha_minus
+
+# Learning rate nu
+0.001	#lr_nu
+
+# Learning rate lambda
+0.001	#lr_lambda
+
+# Number of samples to generate in each node of tree in third stage
+10	#n_sample_scenario_2
+
+# testing period start day
+0	#start_eval_day
+
+# max number of iterations to run the progressive hedging algorithm
+200	#max_iteration
+
+# multi-processing or thread pooling for parallelism (mprocess or mthread)
+mprocess	#parallel_option
+
+# start running from the beginning with all in cash or from an intermediary point (start or resume)
+start	#starting_result

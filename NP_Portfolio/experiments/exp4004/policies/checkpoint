@@ -1,0 +1,2 @@
+model_checkpoint_path: "/data/desmond/portfolio/rl/experiments/exp4004/policies/1500000"
+all_model_checkpoint_paths: "/data/desmond/portfolio/rl/experiments/exp4004/policies/1500000"

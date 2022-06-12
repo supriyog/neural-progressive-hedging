@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="895e9711-a3b9-4f32-9c96-4307cf5ed7d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/safety-starter-agents/safe_rl/pg/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety-starter-agents/safe_rl/pg/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safety-starter-agents/safe_rl/pg/run_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety-starter-agents/safe_rl/pg/run_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safety-starter-agents/safe_rl/utils/run_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety-starter-agents/safe_rl/utils/run_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safety-starter-agents/scripts/experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety-starter-agents/scripts/experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safety-starter-agents/scripts/test_policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/safety-starter-agents/scripts/test_policy.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/safety-starter-agents/scripts/experiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1447">
+              <caret line="76" column="105" selection-start-line="76" selection-start-column="105" selection-end-line="76" selection-end-column="105" />
+              <folding>
+                <element signature="e#22#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/safety-starter-agents/scripts/test_policy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+              <folding>
+                <element signature="e#23#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'cost</find>
+      <find>_data</find>
+      <find>self.abbreviation</find>
+      <find>history</find>
+      <find>self.step</find>
+      <find>cost</find>
+      <find>self._data</find>
+      <find>src.rese</find>
+      <find>step(</find>
+      <find>datagen</find>
+      <find>steps_te</find>
+      <find>self.steps</find>
+      <find>action is</find>
+      <find>window</find>
+      <find>iteration_name</find>
+      <find>step_num</find>
+      <find>checkpoint_number</find>
+      <find>alpha_cv</find>
+      <find>alpha_cvar</find>
+      <find>json_write_file</find>
+      <find>data/</find>
+      <find>Dataset</find>
+      <find>dataset</find>
+      <find>environment</find>
+      <find>algo_names</find>
+      <find>config_file</find>
+      <find>dualSla</find>
+      <find>stock_selction_number</find>
+      <find>stocProgPH</find>
+      <find>results/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>utilities_liquidity</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/safety-starter-agents" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP.py" />
+        <option value="$PROJECT_DIR$/results/exp16/generate_weights_SP_RL.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynlearning_Var.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning_VAR.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP_daily_VAR.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP_daily.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP_daily_rewshape.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning_rewshape.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_new_CRP.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP_daily_CVAR.py" />
+        <option value="$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_dataset.py" />
+        <option value="$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_heuristics.py" />
+        <option value="$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_optimal.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_UP_algos.py" />
+        <option value="$PROJECT_DIR$/Evaluate_UnivPort_Algos.py" />
+        <option value="$PROJECT_DIR$/utils/utilities_liquidity.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_expertCRP_daily_Liquidity.py" />
+        <option value="$PROJECT_DIR$/environment_constaint/portfolio_sim.py" />
+        <option value="$PROJECT_DIR$/environment_constaint/data_generator.py" />
+        <option value="$PROJECT_DIR$/environment_constaint/portfolio_env.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dl_CVAR.py" />
+        <option value="$PROJECT_DIR$/Run_UnivPort_Algos.py" />
+        <option value="$PROJECT_DIR$/safety-starter-agents/scripts/experiment.py" />
+        <option value="$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dl_Liquidity.py" />
+        <option value="$PROJECT_DIR$/SPRL_expertDDPG_daily_Liquidity.py" />
+        <option value="$PROJECT_DIR$/SPRL_expertDDPG_daily_CVAR.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_DDPG.py" />
+        <option value="$PROJECT_DIR$/SPRL_eval_DDPG_Liquidity.py" />
+        <option value="$PROJECT_DIR$/Run_Evaluate_UP_algos_in_Environment.py" />
+        <option value="$PROJECT_DIR$/safety-starter-agents/scripts/test_policy.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="895e9711-a3b9-4f32-9c96-4307cf5ed7d0" name="Default Changelist" comment="" />
+      <created>1583496902625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583496902625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19188862" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19188862" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/exp16/generate_weights_SP_RL.py" />
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynlearning_Var.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP.py" />
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning_VAR.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP_daily_VAR.py" />
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning.py" />
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dynamic_learning_rewshape.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP_daily_rewshape.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_evaluation.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP_daily.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_new.py" />
+    <entry file="file://$PROJECT_DIR$/../../../TransportNFG/ServerCopy_Costflow_RandomPartitioning_benchmarks.py" />
+    <entry file="file://$PROJECT_DIR$/../../../TransportNFG/ServerCopy_Random_OPT_benchmarks.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_new_CRP.py" />
+    <entry file="file://$USER_HOME$/Downloads/rl/postprocessing/rollout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="224" column="27" selection-start-line="224" selection-start-column="27" selection-end-line="224" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_optimal.py" />
+    <entry file="file://$PROJECT_DIR$/../../../TransportNFG/ServerCopy_RandomPartitioning_small_heuristics.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP_daily_CVAR.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_expertCRP_daily_Liquidity.py" />
+    <entry file="file://$PROJECT_DIR$/../safety-starter-agents/safe_rl/pg/agents.py" />
+    <entry file="file://$PROJECT_DIR$/utils/utilities_liquidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="169" column="108" selection-start-line="169" selection-start-column="108" selection-end-line="169" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../safety-starter-agents/scripts/experiment.py" />
+    <entry file="file://$PROJECT_DIR$/../safety-starter-agents/scripts/test_policy.py" />
+    <entry file="file://$PROJECT_DIR$/environment/data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment/portfolio_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1638">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment/portfolio_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment_constaint/portfolio_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment_constaint/portfolio_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="136" selection-start-line="134" selection-end-line="136" />
+          <folding>
+            <element signature="e#116#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment_constaint/sp500_data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment_constaint/data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safety-starter-agents/scripts/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6384">
+          <caret line="310" column="68" selection-start-line="310" selection-start-column="56" selection-end-line="310" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluate_UnivPort_Algos.py" />
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_UP_algos.py" />
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dl_CVAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9828">
+          <caret line="742" column="9" selection-start-line="742" selection-start-column="9" selection-end-line="742" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OptimizerCodes/progressiveHedgingPO_dl_Liquidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRL_expertDDPG_daily_CVAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="314" column="48" selection-start-line="314" selection-start-column="48" selection-end-line="314" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_DDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1847">
+          <caret line="242" column="36" selection-start-line="242" selection-start-column="36" selection-end-line="242" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRL_eval_DDPG_Liquidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="251" column="36" selection-start-line="251" selection-start-column="36" selection-end-line="251" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run_UnivPort_Algos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098">
+          <caret line="43" column="128" selection-start-line="43" selection-start-column="128" selection-end-line="43" selection-end-column="128" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run_Evaluate_UP_algos_in_Environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="210" column="42" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRL_expertDDPG_daily_Liquidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="328" column="142" selection-start-line="328" selection-start-column="142" selection-end-line="328" selection-end-column="142" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safety-starter-agents/scripts/test_policy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safety-starter-agents/scripts/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1447">
+          <caret line="76" column="105" selection-start-line="76" selection-start-column="105" selection-end-line="76" selection-end-column="105" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

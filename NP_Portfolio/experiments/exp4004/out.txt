@@ -1,0 +1,9 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+tensorboard --logdir=/data/desmond/ray_results/CustomTrainer_portfolio_env_2020-04-02_15-34-28izb75dvs
+Total experiment time in seconds:  88891.41446185112

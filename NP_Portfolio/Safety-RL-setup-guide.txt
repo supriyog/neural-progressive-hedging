@@ -1,0 +1,37 @@
+Installing safety-rl in Ubuntu:
+
+## ---- Setup mujoco environment ---- ##
+Go to http://www.mujoco.org. Register to get a licence (say "mjkey.txt"). Download mujoco200 for the correct OS from product page. Assuming both 'mjkey.txt' and 'mujoco200/' are stored in ~/Downloads/ directory, then run the following commands.
+
+$ mkdir ~/.mujoco
+$ cp ~/Downloads/mjkey.txt ~/.mujoco/mjkey.txt
+$ cp ~/Downloads/mujoco200/ ~/.mujoco/mujoco200
+
+## ---- Install required libraries ---- ##
+
+$ sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3
+$ sudo apt update
+$ sudo apt install build-essential
+$ sudo apt-get install manpages-dev
+$ sudo apt-get update && sudo apt-get install libgl1-mesa-dev
+$ sudo apt install libopenmpi-dev
+$ conda install -c anaconda patchelf
+
+## ---- Install mujoco, safety-gym and safety-starter-agents ---- ##
+
+$ pip install -U 'mujoco-py<2.1,>=2.0’
+Open ~/.bashrc file and add the following line: 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco200/bin'
+Check if this command is working: $ python -c 'import mujoco_py'
+If above does not work, then build from source
+$ git clone https://github.com/openai/mujoco-py.git
+$ cd mujoco-py/
+$ pip install -e .
+
+****---- make sure to enter into the root repository of neural-proximal experiments -----***
+$ cd NeuralProximal_NeurIPS 
+$ pip install mpi4py
+$ git clone https://github.com/openai/safety-gym.git
+$ cd safety-gym/
+$ pip install -e .
+$ cd ../safety-starter-agents/
+$ pip install -e .

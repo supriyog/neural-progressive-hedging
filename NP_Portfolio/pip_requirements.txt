@@ -1,0 +1,13 @@
+psutil
+setproctitle
+tabulate
+lz4
+ray==0.8.0
+gym
+opencv-python
+bidict
+anytree
+matplotlib
+tensorflow==1.13.1
+pandas_datareader
+h5py
